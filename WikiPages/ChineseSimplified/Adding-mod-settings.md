@@ -36,6 +36,7 @@ public class SettingTest : ModBase {
 2. 第二个参数是“设置”的标题，它会显示在“设置对话框”的控件旁边。标题最好简洁明了，这样玩家就可以快速浏览整个菜单。“设置”具体的作用应该在说明中解释。
 3. 第三个参数是“设置”的说明，当你的鼠标悬停在“设置对话框”的标题或控件上，它会弹出一个提示文本框来显示这些信息。说明可以是空的，这样就不会弹出提示文本框了。
 4. 第四个参数是“设置”的默认值，即“设置”的初始值，“设置”中可以重新设置的值，也是在“设置”因为某些原因无法加载时的一条退路。
+
 >1. The first parameter is a unique name for that setting, and is the identifier it is stored under in the settings XML file.  
 >2. The second parameter is the title that will display next to the control in the settings dialog. It is best to keep the title short so that the player has an easier time skimming through the menu. What the setting does should be explained in the description.  
 >3. The third parameter is the setting description, displayed as a tooltip when hovering over the setting title or control in the settings dialog. The description can be `null`, in which case the tooltip will not be displayed.  
